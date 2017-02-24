@@ -1,0 +1,60 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Passion+One|Quicksand');
+
+/*Reset*/
+
+*{
+    /*Supprimer ttes les marges*/
+    margin: 0;
+    padding: 0;
+
+    /*Integrer les padding et les border ds la taille des blocs*/
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5rem;    
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+h1, h2{    
+    font-family: 'Passion One', cursive;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Style header*/
+header{
+    background-color: #22175b;
+    color: white;
+    padding: 2rem;
+}
+
+h1 span{
+    display: block;
+    font-size: .5em;    
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav ul{
+    display: none;
+}
+
+
+.fa-bars{
+    background-color: white;
+    padding: 1rem 1.1rem;
+    color: #22175b;
+    margin-top: 1rem;
+    border-radius: 50%;
+}

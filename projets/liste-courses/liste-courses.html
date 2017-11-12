@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Ma liste de courses</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!--ouverture de la page-->
+	<header>
+		<h1>Ma liste de courses</h1>
+		<p>System de gestion pour acheter mieux</p>
+
+	</header>
+	<!--contenu de la page-->
+	<main>
+		<section>
+            <h2>Ma liste de course</h2>
+            <ul id="productList">
+                <li id="blackProductList">
+                    Ajouter un produit...
+                </li>
+            </ul>
+        </section>
+
+		<!--mon formulaire-->
+		<section>
+			<h2>Ajouter un produit</h2>
+			<form action="" method="post">
+				<!--zone de produit-->
+				<fieldset>
+					<legend>Type de produit</legend>
+					<article>
+						<label for="productCategory">Catégorie</label>
+
+						<select name="productCategory" id="productCategory">
+
+							<option value="null">Selectionner</option>
+
+							<option value="legume">Légume</option>
+							<option value="fruit">Fruit</option>
+							<option value="viande">Viande</option>
+							<option value="poisson">Poisson</option>
+							<option value="divers">Divers</option>
+							
+						</select>
+
+					</article>
+					<article>
+
+						<label for="productName">Nom</label>
+						<input type="text" id="productName" placeholder="Obligatoire">
+
+					</article>
+
+				</fieldset>
+
+				<!--zone : a propos-->
+				<fieldset>
+					<legend>A propos</legend>
+					<article>
+
+						<label for="productComment">Commentaire</label>
+						<textarea name="productComment" id="productComment" placeholder="quantité, format,..."></textarea>
+
+					</article>
+
+					<article>
+
+						<label for="productOption">Option</label>
+						<ul>
+							<li><input name="productOptionsRadio" type="radio" id="cboxPetitDej" value="Petit-déjeuné"> Petit-déjeuné</li>
+                            <li><input name="productOptionsRadio" type="radio" id="cboxDejeune" value="Déjeuner"> Déjeuner</li>
+                            <li><input name="productOptionsRadio" type="radio" id="cboxDiner" value="diner"> Dîner</li>
+                            <li><input name="productOptionsRadio" type="radio" id="cboxReserve" value="reserve"> Réserve</li>
+						</ul>
+
+					</article>
+
+				</fieldset>
+				<input type="submit" value="ajouter">
+
+			</form>
+		</section>
+
+	</main>
+	<!--fermeture de la page-->
+	<footer id="myFooter">
+		<p>Under MIT Licence</p>
+	</footer>
+	
+
+	<!--integrer le javascript à la fin du body-->
+	<script src="js/liste-courses.js"></script>
+</body>
+</html>

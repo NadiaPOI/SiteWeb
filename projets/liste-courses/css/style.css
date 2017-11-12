@@ -1,0 +1,224 @@
+/* Reset */
+
+    /* Supprimer toutes les marges de toutes les balises HTML */
+    *{
+        margin: 0;
+        padding: 0;
+
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size: 62.5%;  /* 1rem = 10px */
+        background: url(../images/pexels-photo-349610.jpeg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    body{
+        font-size: 1.5rem;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    header, main, footer{
+        max-width: 50rem;
+        margin: 2rem auto;
+    }
+
+/* STYLE header */
+
+    header {
+        background-image: url(../images/background.jpg);
+        background-size: 100%;
+        padding: 4rem 2rem;
+        margin: 0 auto 2rem auto;
+        color: #fff;
+    }
+
+    h1 {
+        background-color: #bf1a07;
+        padding: 0.5rem 1rem;
+        margin-bottom: 1rem;
+    }
+
+    h1 + p {
+        border-bottom: 0.1rem dotted #ffffff;
+        padding-bottom: 0.5rem;
+        text-shadow: 0 0 0.5rem #222;
+    }
+
+
+/* STYLE main */
+
+    main{
+        padding: 1rem;
+        background-color: #fafafa;
+    }
+
+    h2 {
+        color: #bf1a07;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        padding: 1rem 0;
+    }
+
+
+/* STYLE formulaire */
+
+    fieldset{
+        border: none;
+        margin: 2rem auto;
+    }
+
+    fieldset:first-child {
+        border-bottom: 0.1rem dotted rgba(191, 26, 7, .5);
+        margin-bottom: 1.5rem;
+    }
+
+    legend {
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+
+    label, textarea, select, input:not([type="radio"]){
+        display: block;
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    input:not([type="radio"]){
+        border: 0.1rem solid #ccc;
+        padding: 0.6rem 1.2rem;
+    }
+
+    input[type="radio"]{
+        margin-bottom: 0.7rem;
+    }
+    
+    select, textarea, label, article > input:not([type="submit"]) {
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    label {
+        color: #bf1a07;
+        font-weight: 400;
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        margin-bottom: 0.5rem;
+    }
+
+    label .form-error{
+        color: #222;
+        text-transform: none;
+    }
+
+    input, textarea{
+        padding: 0.5rem;
+    }
+
+    input[type="submit"] {
+        background: #bf1a07;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 1rem;
+    }
+
+    textarea {
+        max-height: 8rem;
+        height: 8rem;
+        max-width: 100%;
+        border: navajowhite;
+        background-color: #e6e6e6;
+        padding: 1rem;
+    }
+
+    form article {
+        float: left;
+        width: 50%;
+        padding: 0 1rem 0 0;
+        margin-bottom: 1.5rem;
+    }
+
+    form article:last-child{
+        padding: 0 0 0 1rem;
+    }
+
+    select {
+        border: 0;
+        background: white;
+        padding: .6rem 1.2rem;
+        border: 0.1rem solid #ccc;
+        border-radius: 0;
+        background-image: url(../images/cursorSelect.png);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+        background-position-y: -0.2rem;
+
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+
+
+/* STYLE footer */
+
+    footer {
+        width: 80%;
+        text-align: center;
+        color: #fff;
+        font-size: 1rem;
+        text-transform: uppercase;
+        margin: auto;
+    }
+
+    footer p {
+        max-width: 60rem;
+        margin: auto;
+        padding: 1rem;
+        background-color: #bf1a07;
+    }
+
+/* STYLE liste de produits */
+
+    
+    #productList img {
+        width: 3rem;
+        float: left;
+        margin-right: 1rem;
+    }
+
+    #productList li {
+        clear: both;
+        border-bottom: 0.1rem dotted rgba(191, 26, 7, .5);
+        padding-bottom: 1rem;
+        margin: 1.5rem auto;
+    }
+
+    #blackProductList {
+        font-size: 1.1rem;
+        font-style: italic;
+        color: rgba(191, 26, 7, .6);
+    }
+
+
+    #productList p:last-child {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+        color: #bf1a07;
+        font-weight: 400;
+        padding-top: 0.3rem;
+    }
+
+
+    
+
+    

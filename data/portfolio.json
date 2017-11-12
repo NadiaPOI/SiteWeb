@@ -1,0 +1,45 @@
+
+[
+    {
+        "title": "Team Direct Energie",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "nuages1.jpg",
+        "cover2": "screenshot_directenergie.png",
+        "link": "projets/directenergie/directenergie.html"
+    },
+      {
+        "title": "Resonances",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "nuages2.jpg",
+        "cover2": "screenshot_resonances.png",
+        "link": "projets/resonances/resonances.html"
+    },
+      {
+        "title": "Liste de courses Javascript",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "nuages5.jpg",
+        "cover2": "screenshot_listecourses.png",
+        "link": "projets/liste-courses/liste-courses.html"
+    },
+      {
+        "title": "Evenement jQuery",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "nuages6.jpg",
+        "cover2": "screenshot_ampoule.png",
+        "link": "projets/ampoule/ampoule.html"
+    },
+    {
+        "title": "Animation jQuery",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "nuages7.jpg",
+        "cover2": "screenshot_animationjquery.png",
+        "link": "projets/animation-jquery/index.html"
+    },
+      {
+        "title": "Cube 3D en CSS",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio et rem, dicta ipsam hic alias earum inventore sint doloribus quis totam commodi adipisci provident repellendus, magni, assumenda eveniet laborum, fugiat.",
+        "cover": "nuages8.jpg",
+        "cover2": "screenshot_cube.png",
+        "link": "projets/cube/index.html"
+    }
+]
